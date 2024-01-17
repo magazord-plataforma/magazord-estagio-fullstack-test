@@ -18,7 +18,7 @@ Este repositório tem como fim testar os candidatos para vaga de desenvolvedor D
 O objetivo deste teste é garantir que suas habilidades de programação sejam postas a prova. O importante é o funcionamento e o cumprimento com os requisitos e utilização de boas práticas de programação. 
 
 ### Orientações Gerais
-A vaga Fullstack compreende o desenvolvimento de aplicações frontend e backend. A segregação das responsabilidades de cada aplicação é fundamental para as boas práticas de programação e para a própria segurança da aplicação. Por tanto, fique atento aos requisitos funcionais e não funcionais da aplicação.
+A vaga Fullstack compreende o desenvolvimento de aplicações frontend e backend. A segregação das responsabilidades de cada aplicação é fundamental para as boas práticas e a própria segurança da aplicação. Portanto, fique atento aos requisitos funcionais e não funcionais da aplicação.
 
 > [!IMPORTANT]
 > **Não utilizar framework's para desenvolver a aplicação back-end**.
@@ -35,11 +35,11 @@ A vaga Fullstack compreende o desenvolvimento de aplicações frontend e backend
 
 ## Requisitos funcionais:
 
-- RF01 - O sistema deve ter um campo do tipo Select / Combobox para a seleção da cidade.
+- RF01 - O sistema deve ter um campo do tipo Input, Select ou Combobox para a a definição da cidade.
 
 - RF02 - O sistema deve apresentar um indicador de carregamento enquanto aguarda as chamadas de API.
 
-- RF03 - O sistema deve informar o usuário em caso de dados indisponíveis, perda de conexão com o backend ou cidade inválida.
+- RF03 - O sistema deve informar o usuário em caso de dados indisponíveis, falha ao buscar a cidade e/ou perda de conexão com o backend.
 
 - RF04 - O sistema deve carregar a tela com a cidade atual do usuário pré-carregada (Utilizar IP e geolocalização).
 
@@ -48,9 +48,9 @@ A vaga Fullstack compreende o desenvolvimento de aplicações frontend e backend
 
 - RNF01 - A aplicação frontend pode ser feita utilizando de algum framework frontend (Vue, React, Svelte, etc) ou puramente HTML, CSS e Javascript.
 
-- RNF02 - As chamadas de serviços de terceiros devem ser feitas exclusivamente através de uma aplicação backend. Esse backend pode ser escrito em qualquer linguagem backend (Python, Nodejs, PHP, Java, etc).
+- RNF02 - As chamadas de serviços de terceiros devem ser feitas exclusivamente através de uma aplicação backend. Esse backend pode ser escrito na linguagem a sua escolha (Python, Nodejs, PHP, Java, Node.js etc).
 
-- RNF03 - A comunicação entre o Frontend e o Backend desenvolvido deve ser feita através do consumo de API's.
+- RNF03 - A comunicação entre o Frontend e o Backend deve ser feita através do consumo de API's.
 
 - RNF04 - O sistema deverá ter seu controle de versão no Github.
 
